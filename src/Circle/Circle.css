@@ -1,0 +1,17 @@
+.Circle {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: grey;
+  margin: 40px 20px;
+  box-shadow: 0 0 3px 2px black;
+}
+
+.Circle:active {
+  box-shadow: inset 0 0 3px 2px black;
+}
+
+div.Circle.active {
+  background-color: #e5925e;
+}

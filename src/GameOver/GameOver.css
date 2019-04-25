@@ -1,0 +1,28 @@
+#result {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.popup {
+  height: 350px;
+  width: 500px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+#gameover {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 15px;
+}
